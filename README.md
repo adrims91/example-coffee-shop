@@ -1,1 +1,1 @@
-# example-ecommerce
+# example-Coffee shop
