@@ -4,7 +4,7 @@ const Main = () => {
       <div className="grid grid-cols-2 gap-8 items-center p-8">
         <div className="flex justify-center">
           <img
-            className="w-50 rounded-xl shadow-lg transition hover:bg-amber-950"
+            className="w-50 rounded-xl shadow-lg"
             src="hero.jpg"
             alt="Café Latte"
           />
