@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const authRoutes = require('./router/authRoutes');
+const menuRoutes = require('./router/menuRoutes')
 require('dotenv').config()
 
 const app = express();
@@ -9,6 +10,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 app.use(authRoutes);
+app.use(menuRoutes)
 
 
 const run = async () => {
