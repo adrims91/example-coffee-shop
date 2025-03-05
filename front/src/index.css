@@ -1,1 +1,12 @@
-@import "tailwindcss";
+#root {
+    background-color: rgb(235, 208, 178);
+}
+
+.hero {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.cards {
+    height: 200px;
+}
