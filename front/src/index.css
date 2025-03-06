@@ -2,6 +2,23 @@
     background-color: rgb(235, 208, 178);
 }
 
+#container-width {
+    max-width: 75%; /* Por defecto, en pantallas mayores a 768px y menores a 1200px */
+}
+
+@media(max-width: 768px) {
+    #container-width {
+        max-width: 100%; /* En pantallas menores a 768px */
+    }
+}
+
+@media(min-width: 1200px) {
+    #container-width {
+        max-width: 50%; /* En pantallas mayores a 1200px */
+    }
+}
+
+
 .hero {
     max-height: 400px;
     object-fit: cover;
@@ -10,3 +27,4 @@
 .cards {
     height: 200px;
 }
+

@@ -7,8 +7,7 @@ import { Container } from 'react-bootstrap';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Container className='w-75'>
-
+    <Container id='container-width'>
     <Layout />
     </Container>
   </StrictMode>,
